@@ -235,10 +235,3 @@ server = function(input, output) {
 }
 
 shinyApp(ui,server)  
-
-
-## to deploy
-# library(shinyapps)
-# 
-# shinyapps::setAccountInfo(name='shamiri', token='25757F952D89545425941A2BB60466F2', secret='7gklRpyKoZTFHsHy8j6rDpdN1pYHH9vZGpt0pZyd')
-# deployApp()
